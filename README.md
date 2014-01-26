@@ -1,4 +1,4 @@
-niharmitra.github.io
+Nihar's Site
 ====================
 
 My Website
