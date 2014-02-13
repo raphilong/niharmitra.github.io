@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+html {
+	font-family: 'Light';
+	margin-top: 1%;
+	margin-left: 3%;
+}
+
+body {
+	font-size: 20px;
+	color: #888888;
+}
+
+table {
+	font-size: 20px;
+}
+
+section {
+	font-size: 25px;
+	margin-top: 5px;
+	text-align: justify;
+	color:#0090FF;
+}
+
+unimportant {
+	margin-left: 15px;
+	color: #BBBBBB;
+}
+
+h1 {
+	color: #0090FF;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	color: #888888;
+}
+
+button {
+	font-size: 20px;
+	margin-top: 5px;
+	text-align: justify;
+	color: #0090FF;
+	line-height: 130%;
+}
+
+input {
+	font-size: 20px;
+}
+
+dialog {
+	title-style-name: "alertTitle";
+	message-style-name: "messageStyle";
+	button-style-name: "buttonStyle:";
+}
+
+.alertTitle {
+	color: #0090FF;
+}
+
+.messageStyle {
+	color: #888888;
+}
+
+.buttonStyle {
+	color: #0090FF;
+}
