@@ -8,6 +8,7 @@ html {
 
 body {
 	font-size: 20px;
+	margin: 1%;
 	color: #888888;
 }
 
@@ -25,6 +26,7 @@ body {
 ul.sidebar a {
 	/*keeps sidebar in one piece*/
 	display: block;
+	padding: 1%;
 	border: none;
 	/*removes underlining of hyperlinks*/
 	text-decoration: none;
@@ -41,6 +43,10 @@ a:unvisited {
 
 a:visited {
 	color: #2711F0;
+}
+
+content {
+	padding: 1%;
 }
 
 section {
@@ -64,6 +70,8 @@ h1 {
 	color: #0090FF;
 	margin: 0;
 	padding: 0;
+	padding-bottom: 10px;
+	font-size: 65px;
 	text-align: center;
 }
 
