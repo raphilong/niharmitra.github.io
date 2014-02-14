@@ -49,6 +49,10 @@ section {
 	color:#0090FF;
 }
 
+highlight {
+	color: #0090FF;
+}
+
 unimportant {
 	margin-left: 15px;
 	color: #BBBBBB;
@@ -84,6 +88,7 @@ input {
 }
 
 input[type=text] {
+	font-size: 20px;
 	color: #2711F0;
 }
 
