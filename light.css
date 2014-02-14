@@ -44,7 +44,7 @@ unimportant {
 	margin-left: 15px;
 	color: #BBBBBB;
 }
-
+//CSS FOR HEADERS
 h1 {
 	color: #0090FF;
 	margin: 0;
@@ -54,14 +54,6 @@ h1 {
 
 li {
 	color: #888888;
-}
-
-input[type=sumbit] {
-	font-size: 20px;
-	margin-top: 5px;
-	text-align: justify;
-	color: #0090FF;
-	line-height: 130%;
 }
 
 button {
@@ -76,8 +68,34 @@ table {
 	font-size: 20px;
 }
 
+//CSS FOR FORMS
+//placeholder changes text that user inputs
+::-webkit-input-placeholder {
+   color: #0090FF;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #0090FF;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #0090FF;  
+}
+
+:-ms-input-placeholder {  
+   color: #0090FF;  
+}
+
 input {
 	font-size: 20px;
+}
+
+input[type=submit] {
+	font-size: 20px;
+	margin-top: 5px;
+	text-align: justify;
+	color: #0090FF;
+	line-height: 130%;
 }
 
 dialog {
