@@ -33,10 +33,6 @@ ul.sidebar a:hover {
 
 }
 
-table {
-	font-size: 20px;
-}
-
 section {
 	font-size: 25px;
 	margin-top: 5px;
@@ -60,12 +56,24 @@ li {
 	color: #888888;
 }
 
+input[type=sumbit] {
+	font-size: 20px;
+	margin-top: 5px;
+	text-align: justify;
+	color: #0090FF;
+	line-height: 130%;
+}
+
 button {
 	font-size: 20px;
 	margin-top: 5px;
 	text-align: justify;
 	color: #0090FF;
 	line-height: 130%;
+}
+
+table {
+	font-size: 20px;
 }
 
 input {
