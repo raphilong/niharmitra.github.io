@@ -113,16 +113,16 @@ table {
 }
 /*Makes placeholder text disappear on focus*/
 input:focus::-webkit-input-placeholder { /* WebKit browsers(Safari, Chrome) */
-    visibility: hidden;
+    color: transparent;
 }
 input:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    visibility: hidden;
+    color: transparent;
 }
 input:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
-    visibility: hidden;
+    color: transparent;
 }
 input:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
-    visibility: hidden;
+    color: transparent;
 }
 
 /*CSS FOR FORMS*/
