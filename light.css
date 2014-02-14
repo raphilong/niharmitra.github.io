@@ -33,8 +33,12 @@ ul.sidebar a:hover {
 
 }
 
-a:visited {
+a:unvisited {
 	color: #0000FF;
+}
+
+a:visited {
+	color: #2711F0;
 }
 
 section {
@@ -48,6 +52,7 @@ unimportant {
 	margin-left: 15px;
 	color: #BBBBBB;
 }
+
 //CSS FOR HEADERS
 h1 {
 	color: #0090FF;
