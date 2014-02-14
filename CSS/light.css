@@ -78,41 +78,12 @@ table {
 }
 
 //CSS FOR FORMS
-//placeholder changes text that user inputs
-input::-webkit-input-placeholder {
-   color: #888888;
-}
-
-input:-moz-placeholder { /* Firefox 18- */
-   color: #888888;
-}
-
-input::-moz-placeholder {  /* Firefox 19+ */
-   color: #888888;
-}
-
-input:-ms-input-placeholder {  
-   color: #888888;
-}
-
-input:focus::-webkit-input-placeholder {
-   visibility: hidden;
-}
-
-input:focus:-moz-placeholder { /* Firefox 18- */
-   visibility: hidden;
-}
-
-input:focus::-moz-placeholder {  /* Firefox 19+ */
-   visibility: hidden;
-}
-
-input:focus:-ms-input-placeholder {  
-   visibility: hidden;
-}
-
 input {
 	font-size: 20px;
+}
+
+input[type=text] {
+	color: #2711F0;
 }
 
 input[type=submit] {
