@@ -19,13 +19,14 @@ body {
 	padding-left: 0px;
 	list-style: none;
 	float: left;
+	padding-right: 1%;
 }
 
 ul.sidebar a {
-	//keeps sidebar in one piece
+	/*keeps sidebar in one piece*/
 	display: block;
 	border: none;
-	//removes underlining of hyperlinks
+	/*removes underlining of hyperlinks*/
 	text-decoration: none;
 }
 
@@ -34,7 +35,7 @@ ul.sidebar a:hover {
 }
 
 a:unvisited {
-	color: #0000FF;
+	color: #2711F0;
 }
 
 a:visited {
