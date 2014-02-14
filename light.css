@@ -33,6 +33,10 @@ ul.sidebar a:hover {
 
 }
 
+a:visited {
+	color: #0000FF;
+}
+
 section {
 	font-size: 25px;
 	margin-top: 5px;
