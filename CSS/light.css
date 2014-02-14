@@ -98,8 +98,34 @@ button {
 table {
 	font-size: 20px;
 }
+/*PLACEHOLDER TEXT*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:#888888;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#888888;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#888888;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#888888;
+}
+/*Makes placeholder text disappear on focus*/
+input:focus::-webkit-input-placeholder { /* WebKit browsers(Safari, Chrome) */
+    color:#0090FF;
+}
+input:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#0090FF;
+}
+input:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#0090FF;
+}
+input:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#0090FF;
+}
 
-//CSS FOR FORMS
+/*CSS FOR FORMS*/
 input {
 	font-size: 20px;
 }
