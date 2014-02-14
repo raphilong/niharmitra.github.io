@@ -32,6 +32,7 @@ ul.sidebar a {
 
 ul.sidebar a:hover {
 	text-decoration: underline;
+	color: #DC322F;
 }
 
 a:unvisited {
