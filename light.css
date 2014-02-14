@@ -11,6 +11,13 @@ body {
 	color: #888888;
 }
 
+.sidebar {
+	position: relative;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
 table {
 	font-size: 20px;
 }
