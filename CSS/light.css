@@ -78,6 +78,10 @@ button {
 	line-height: 130%;
 }
 
+.link-button {
+	text-decoration: none;
+}
+
 table {
 	font-size: 20px;
 }
@@ -88,7 +92,7 @@ input {
 }
 
 input[type=text] {
-	font-size: 20px;
+	font-size: 15px;
 	color: #2711F0;
 }
 
