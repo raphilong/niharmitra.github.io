@@ -21,6 +21,8 @@ body {
 	list-style: none;
 	float: left;
 	padding-right: 1%;
+	width: 100px;
+	white-space: nowrap;
 }
 
 ul.sidebar a {
@@ -47,6 +49,8 @@ a:visited {
 
 content {
 	padding: 1%;
+	padding-left: 2%;
+	display: block;
 }
 
 section {
