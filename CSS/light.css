@@ -1,5 +1,5 @@
 @charset "UTF-8";
-//	<link rel="stylesheet" href="CSS/light.css" type="text/css" />
+/*	<link rel="stylesheet" href="CSS/light.css" type="text/css" /> */
 html {
 	font-family: 'Light';
 	margin-top: 1%;
@@ -11,7 +11,7 @@ body {
 	color: #888888;
 }
 
-//SIDEBAR PROPERTIES
+/*SIDEBAR PROPERTIES*/
 .sidebar {
 	position: relative;
 	margin-top: 0px;
@@ -19,6 +19,18 @@ body {
 	padding-left: 0px;
 	list-style: none;
 	float: left;
+}
+
+ul.sidebar a {
+	//keeps sidebar in one piece
+	display: block;
+	border: none;
+	//removes underlining of hyperlinks
+	text-decoration: none;
+}
+
+ul.sidebar a:hover {
+
 }
 
 a:unvisited {
@@ -41,7 +53,7 @@ unimportant {
 	color: #BBBBBB;
 }
 
-//CSS FOR HEADERS
+/*CSS FOR HEADERS*/
 h1 {
 	color: #0090FF;
 	margin: 0;
