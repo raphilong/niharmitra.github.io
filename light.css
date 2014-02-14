@@ -70,20 +70,20 @@ table {
 
 //CSS FOR FORMS
 //placeholder changes text that user inputs
-::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
    color: #0090FF;
 }
 
-:-moz-placeholder { /* Firefox 18- */
-   color: #0090FF;  
+input:-moz-placeholder { /* Firefox 18- */
+   color: #0090FF;
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #0090FF;  
+input::-moz-placeholder {  /* Firefox 19+ */
+   color: #0090FF;
 }
 
-:-ms-input-placeholder {  
-   color: #0090FF;  
+input:-ms-input-placeholder {  
+   color: #0090FF;
 }
 
 input {
