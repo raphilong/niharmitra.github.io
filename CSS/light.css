@@ -31,7 +31,7 @@ ul.sidebar a {
 }
 
 ul.sidebar a:hover {
-
+	text-decoration: underline;
 }
 
 a:unvisited {
