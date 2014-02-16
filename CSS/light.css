@@ -49,6 +49,7 @@ a:visited {
 
 content {
 	padding: 1%;
+	padding-right: 0;
 	padding-left: 2%;
 	display: block;
 }
