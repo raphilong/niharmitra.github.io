@@ -1,3 +1,5 @@
+/*Color Scheme of #0090FF and #888888 taken with permission from Tyler Packard (tylerpackard.com)*/
+
 @charset "UTF-8";
 /*	<link rel="stylesheet" href="CSS/light.css" type="text/css" /> */
 html {
@@ -58,7 +60,7 @@ subheader {
 	font-size: 25px;
 	margin-top: 5px;
 	text-align: justify;
-	color:#0090FF;
+	color: #0090FF;
 }
 
 highlight {
@@ -81,8 +83,9 @@ h1 {
 }
 /*FOOTERS*/
 footer {
-	font-size: 10px;
+	font-size: 80%;
 	color: #888888;
+	text-align: center;
 }
 
 li {
