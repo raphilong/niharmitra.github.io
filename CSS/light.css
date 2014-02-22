@@ -73,6 +73,13 @@ unimportant {
 	color: #BBBBBB;
 }
 
+/*CONTAINER DIV*/
+#container {
+	position: relative;
+	min-height: 100%;
+	height: 100%;
+}
+
 /*HEADERS*/
 h1 { 
 	color: #0090FF;
@@ -84,9 +91,12 @@ h1 {
 }
 /*FOOTERS*/
 footer {
+	height: 10em;
+	bottom: 0;
 	font-size: 80%;
 	color: #888888;
 	text-align: center;
+	position: absolute;
 }
 
 li {
