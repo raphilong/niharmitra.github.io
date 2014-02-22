@@ -38,7 +38,7 @@ ul.sidebar a {
 
 ul.sidebar a:hover {
 	text-decoration: underline;
-	color: #DC322F;
+	color: #E52D27;
 }
 
 a:unvisited {
@@ -46,9 +46,10 @@ a:unvisited {
 }
 
 a:visited {
-	color: #2711F0;
+	color: #E52D27;
 }
 
+/*NEW TAGS*/
 content {
 	padding: 1%;
 	padding-right: 0;
@@ -73,7 +74,9 @@ unimportant {
 	color: #BBBBBB;
 }
 
-/*CONTAINER DIV*/
+/*CLASSES*/
+
+/*HTML CONTAINER SPECS*/
 #container {
 	position: relative;
 	min-height: 100%;
@@ -112,6 +115,9 @@ button {
 
 .link-button {
 	text-decoration: none;
+	background: none;
+	border: none;
+	padding: none;
 }
 
 table {
