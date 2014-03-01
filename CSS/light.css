@@ -1,7 +1,7 @@
 /*Color Scheme of #0090FF and #888888 taken with permission from Tyler Packard (tylerpackard.com)*/
 
 @charset "UTF-8";
-/*	<link rel="stylesheet" href="CSS/light.css" type="text/css" /> */
+
 html {
 	font-family: 'Light';
 	margin-top: 1%;
@@ -39,6 +39,11 @@ ul.sidebar a {
 ul.sidebar a:hover {
 	text-decoration: underline;
 	color: #E52D27;
+	transition: 0.3s;
+	-o-transition: .3s;
+	-ms-transition: .3s;
+	-moz-transition: .3s;
+	-webkit-transition: .3s;
 }
 
 a:unvisited {
@@ -76,10 +81,19 @@ unimportant {
 
 /*CLASSES*/
 
-/*HTML CONTAINER SPECS*/
+/*FOOTER*/
 #container {
 	position: relative;
 	min-height: 100%;
+}
+
+footer {
+	height: 10em;
+	bottom: 0;
+	font-size: 80%;
+	color: #888888;
+	text-align: center;
+	position: absolute;
 }
 
 /*HEADERS*/
@@ -90,15 +104,6 @@ h1 {
 	padding-bottom: 10px;
 	font-size: 65px;
 	text-align: center;
-}
-/*FOOTERS*/
-footer {
-	height: 10em;
-	bottom: 0;
-	font-size: 80%;
-	color: #888888;
-	text-align: center;
-	position: absolute;
 }
 
 li {
