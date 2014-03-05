@@ -54,6 +54,18 @@ a:visited {
 	color: #2711F0;
 }
 
+.header {
+	color: #0090FF;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+	font-size: 65px;
+	text-align: center;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*NEW TAGS*/
 content {
 	padding: 1%;
