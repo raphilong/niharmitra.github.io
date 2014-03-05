@@ -119,6 +119,9 @@ button {
 }
 
 .link-button {
+	font-size: 20px;
+	color: #0090FF;
+	line-height: 130%;
 	text-decoration: none;
 	background: none;
 	border: none;
