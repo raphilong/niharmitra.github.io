@@ -13,13 +13,15 @@ body {
 	margin: 1%;
 	color: #888888;
 }
-
+/*SELECTED TEXT*/
 ::selection {
-	color: #0090FF;
+	/*color: #0090FF;*/
+	background-color: #ACCEF7;
 }
 
 ::-moz-selection {
-	color: #0090FF;
+	/*color: #0090FF;*/
+	background-color: #ACCEF7;
 }
 
 /*SIDEBAR PROPERTIES*/
